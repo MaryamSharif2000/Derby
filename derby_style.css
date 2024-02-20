@@ -1,0 +1,260 @@
+body {
+    margin-left: 350px;
+    padding: 0px;
+    font-family: 'Solway', serif;
+    text-align: center;
+}
+
+/*--------------header------------------*/
+
+img {
+    width: 100px;
+}
+
+#header{
+    padding: 0px;
+    margin: 0px;
+    width: 720px;
+    height: 300px;
+/*background image*/
+    background-image: url("derby2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px 10px 0px 0px;
+/*text background color*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #FEFAE0;
+}
+
+.heading{
+    font-size: 32px;
+    display: block;
+    background-color: #DDB892;
+    border-radius: 5px;
+    justify-content: space-around;
+    margin-top: 60px;
+    margin-bottom: 0px;
+    padding: 2px 8px;
+    color: #FEFAE0;
+}
+
+.blurb{
+    font-size: 18.72px;
+    display: block;
+    background-color: #9C6644;
+    border-radius: 5px;
+    justify-content: space-around;
+    width: 410px;
+    padding: 5px 0px;
+    color: #FEFAE0;
+}
+
+
+/*----------------main------------*/
+
+#main{
+    background-color: #DDB892;
+    width: 720px;
+    height: 378px;
+    margin: 0px;
+    padding-top: 1px;
+    color: #7F5539;
+    font-weight: bolder;
+}
+
+.sub{
+    margin-top: 50px;
+    font-size: 24px;
+    text-shadow: 0px 0px 0px #7F5539;
+}
+
+.pics{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 16px;
+    margin-bottom: 100px;
+}
+
+.three{
+    margin-top: 50px;
+    border-radius: 50px;
+    border: 1px solid #7F5539;
+    height: 80px;
+}
+
+.pic1, .pic2, .pic3{
+
+  height: 250px;
+}
+
+.pic1:hover, .pic2:hover, .pic3:hover{
+    background-color: #FEFAE0;
+}
+
+p{
+  width: 200px;
+  font-size: 18px;
+  text-shadow: 0px 0px 2px #7F5539;
+}
+
+/*--------------email-------------*/
+
+.emailSection{
+    height: 100px;
+    width: 720px;
+    background-color: #9C6644;
+    color: #FEFAE0;
+    padding: 1px 0px;
+    margin: 0px;
+}
+
+.input{
+color: #9C6644;
+border: solid 2px #9C6644;
+font-family: 'Solway', serif;
+border-radius: 10px;
+font-size: 16px;
+font-weight: bold;
+background-color: #FEFAE0;
+}
+
+.bttn{
+    border: solid 2px #FEFAE0;
+    background-color: #9C6644;
+    color: #FEFAE0;
+    font-family: 'Solway', serif;
+    border-radius: 10px;
+}
+
+.bttn:hover{
+    background-color: #FEFAE0;
+    color: #9C6644;
+}
+
+
+/*---------------footer------------*/
+
+#footer{
+    margin-top: 0px;
+    padding-top: 1px;
+    width: 720px;
+    height: 394px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #DDB892;
+    color: #FEFAE0;
+}
+
+.box{
+    padding: 0px;
+    background-color: #7F5539;
+    width: 500px;
+    height: 294px;
+    box-shadow: 0px 6px 0px #FEFAE0;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.id{
+    width: 250px;
+    height: 248.67px;
+    border-radius: 10px 10px;
+}
+
+.info{
+    flex-direction: column;
+}
+
+
+/*--------------cookie-------------*/
+
+#popupBox{
+ border: solid #FEFAE0;
+ border-radius: 10px;
+  width: 400px;
+  height: 350px;
+  background-color: #9C6644;
+  display: none;
+  position: absolute;
+  top: 25%;
+  right: 37%;
+  left: 38%;
+  color: #FEFAE0;
+}
+
+#top-of-box, #input-boxes{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+#cross{
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 30px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+
+#close-bttn{
+    color: #FEFAE0;
+    background-color: #9C6644;
+    border: none;
+}
+
+#close-bttn:disabled{
+    color: gray;
+    background-color: #9C6644;
+    cursor: not-allowed;
+    border: none;
+}
+
+#text-in-box{
+  margin: 0 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+#input-boxes{
+padding: 0 100px;
+}
+
+.boxes, .boxes::placeholder{
+  width: 200px;
+  height: 25px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+/* colours and font for buttons and input boxes */
+.boxes, .boxes::placeholder,.ckie-bttns{
+  background-color: #FEFAE0;
+  color: #9C6644;
+  border: solid #FEFAE0;
+  font-family: 'Solway', serif;
+}
+
+#cookie-buttons{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+padding: 25px 0px;
+}
+
+.ckie-bttns{
+  width: 200px;
+  border-radius: 10px;
+  margin-top: 10px;
+  font-size: 15px;
+  font-weight: bold;
+
+}
